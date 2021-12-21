@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Index</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="box1">
+            <h1>
+                <marquee width="60%" direction="left" height="100px">
+                    Hello, I am Saurabh Thapa
+                </marquee>
+            </h1>
+            <p>I am a highly competent IT student having knowledge of developing web application and managing databases. I have strong technical skills as well as excellent interpersonal skills and eager to be challenged in order to grow and further improve
+                my IT skills. My greatest passion is in life is using my technical know-how to benefit other people and organisations.</p>
+            <img class="pimage" src="saurabh.jpg" alt=""><br>
+
+        </div>
+
+        <div class="box2">
+
+            <div class="slideshow-container">
+
+                <div class="mySlides fade">
+                    <div class="numbertext">1 / 3</div>
+                    <img src="slider1.jpg" style="width:100%">
+                    <div class="text">"Programming isn't about what you know; it's about what you can figure out.”</div>
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">2 / 3</div>
+                    <img src="slider2.jpeg" style="width:100%">
+                    <div class="text">"Testing leads to failure, and failure leads to understanding."</div>
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">3 / 3</div>
+                    <img src="slider3.jpg" style="width:100%">
+                    <div class="text">"The best error message is the one that never shows up."</div>
+                </div>
+                <div style="text-align:center">
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                </div>
+
+
+            </div>
+            <br>
+
+        </div>
+
+        <div class="box3">
+            <section class="left-section">
+                <h2>Academic Information</h2>
+
+
+                <ul>
+                    <li>
+                        <h3>SLC</h3>
+                    </li>
+                    2006 – 2011 <br><br> Suklagandaki - 6, Khairenitar, Tanahun, Nepal <br><br>
+                    <b>Mount Annapurna Academy</b>
+
+                    <li>
+                        <h3>Ten Plus Two</h3>
+                    </li>
+                    2011 – 2013 <br><br> Nayabazar, Pokhara - 9, Nepal <br><br>
+                    <b> Sagarmatha Higher Secondary School</b>
+
+                    <li>
+                        <h3>Bachelor in Computer Science and Information Technology</h3>
+                    </li>
+                    2011 – 2013 <br><br> Ranipauwa, Pokhara - 11, Nepal <br><br>
+                    <b> Soch College of IT</b>
+
+
+                </ul>
+
+            </section>
+
+            <section class="right-section">
+                <h2>Work Information</h2>
+
+                <ul>
+                    <li>
+                        <h3>Internship</h3>
+                    </li>
+                    May 2020- sep 2020 <br><br>
+                    <b>Metashrine Pvt. Ltd. Srijana Chowk, Pokhara, Nepal </b><br><br>
+                    <p>Assist in creating website layout/user interface by using standard HTML/CSS practices and assist in integrating data from various back-end services and databases.</p>
+
+
+                    <li>
+                        <h3>College Final Project</h3>
+                    </li>
+                    <b>Delivery Management System</b><br> <br> 2018 <br><br> Ranipauwa, Pokhara - 11, Nepal <br><br>
+                    <b> Soch College of IT</b> <br><br>
+
+                    <p>The application was to track and manage items that were purchased online. My task was to create API using programming languages Python and Django framework.
+                    </p>
+
+                </ul>
+
+            </section>
+
+        </div>
+
+        <div class="box4">
+            <section class="left-section">
+                <h2>Contact</h2><br>
+                <div class="col-sm-6 col-md-4 footer-contacts">
+                    <div><span class="fa fa-map-marker footer-contacts-icon"> </span>
+                        <p><span class="new-line-span">Suklagandaki - 7, Khairenitar, Tanahun Nepal</span></p>
+                    </div>
+
+                    <div><i class="fa fa-phone footer-contacts-icon phone"></i>
+                        <p class="footer-center-info  text-left"> +977-9806528929</p>
+                    </div>
+
+                </div>
+            </section>
+
+            <section class="right-section">
+                <div class="col-md-4 footer-about">
+                    <h2>About Me</h2><br>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas consequatur odit est maxime assumenda delectus culpa aut corrupti, officia vitae voluptate, suscipit, quisquam repellat voluptas! Exercitationem veniam consequuntur quisquam
+                        mollitia.
+                    </p>
+                    <div class="social-links social-icons"><a href="https://www.facebook.com/saurabh.thapa.18"><i
+                                class="fa fa-facebook"></i></a><a href="https://www.instagram.com/shaurav_thapa/"><i class="fa fa-instagram"></i></a><a href="https://www.linkedin.com/in/saurabh-thapa-605381226/"><i class="fa fa-linkedin"></i></a>
+                        <a href="https://github.com/saurabhthapamagar"><i class="fa fa-github"></i></a>
+                    </div>
+                </div>
+            </section>
+
+
+
+        </div>
+
+
+    </div>
+
+
+    <script>
+        var slideIndex = 0;
+        showSlides();
+
+        function showSlides() {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("dot");
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) {
+                slideIndex = 1
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+            setTimeout(showSlides, 4000);
+        }
+    </script>
+
+
+
+</body>
+
+</html>
